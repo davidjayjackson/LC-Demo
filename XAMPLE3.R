@@ -1,4 +1,9 @@
-setwd("c:/grant/backup/books/lcurve/rprogram/examples")
+############################
+## Load LC library
+############################
+library(LC)
+##
+setwd("./")
 mira = read.table("mira.10d")
 t = mira[,1]
 x = mira[,2]
